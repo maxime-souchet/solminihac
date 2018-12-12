@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpinionCritique</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<ul class="topnav">
+    <li><a class="active" href="#home">Film</a></li>
+    <li><a href="#director">Réalisateur</a></li>
+    <li><a href="#actor">Acteurs</a></li>
+    <li class="right"><a href="#about">About</a></li>
+</ul>
+<section class=presentation">
+    <header>
+        <h1>Interstellar</h1>
+    </header>
+    <article class=release_date">
+        <p>Date de sortie
+            <time datetime="2014-05-11">5 novembre 2014</time>
+        </p>
+        <ul class="notation">
+            <p>Note du film :
+                <meter id="notation" value="50" max="100"></meter>
+                <span id="pourcentage"></span>
+                <input type="button" onclick="modif(-10);" value="-">
+                <input type="button" onclick="modif(10);" value="+">
+            </p>
+        </ul>
+    </article>
+    <article class="actors_names">
+        <ul>
+            <li>Matthew McConaughey</li>
+            <li>Anne Hathaway</li>
+            <li>Michael Caine</li>
+        </ul>
+    </article>
+    <article class=synopsis">
+        <header>
+            <h1>Synopsis</h1>
+        </header>
+        <p>Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans
+            l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques
+            dans un voyage interstellaire. </p>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/poster.jpg">
+                    <img src="img/poster.jpg" alt="Movie poster">
+                </a>
+                <div class="desc">Affiche du film</div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/ship.jpg">
+                    <img src="img/ship.jpg" alt="Spacial ship">
+                </a>
+                <div class="desc">Le vaisseau spatial</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/earth.jpg">
+                    <img src="img/earth.jpg" alt="Heroes on Earth">
+                </a>
+                <div class="desc">Les héros sur Terre</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img/blackhole.png">
+                    <img src="img/blackhole.png" alt="Blackhole">
+                </a>
+                <div class="desc">Le Tesseract</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+    </article>
+    <article class="realisator">
+        <h1>Réalisateur</h1>
+        <figure>
+            <img src="img/nolan.jpg" alt="Christopher Edward Nolan"/>
+            <figcaption>Christopher Edward Nolan
+            </figcaption>
+        </figure>
+    </article>
+    <article class="actors">
+        <h1>Acteurs principaux</h1>
+        <figure>
+            <img src="img/mcconaughey.jpg" alt="Christopher Edward Nolan"/>
+            <figcaption>Christopher Edward Nolan</figcaption>
+
+            <img src="img/hathaway.jpg" alt="Anne Hathaway"/>
+            <figcaption>Anne Hathaway</figcaption>
+
+            <img src="img/caine.jpg
+
+" alt="Michael Caine"/>
+            <figcaption>Michael Caine</figcaption>
+        </figure>
+    </article>
+</section>
+</body>
+</html>
+
+<footer>
+    Maxime Souchet
+</footer>
